@@ -7,7 +7,7 @@
 ##################################################
 echo "======================"
 echo "Docker Images Listing: [006-docker-images-listing.sh]"
-006-docker-images-listing.sh
+1051-docker-images-listing.sh
 
 echo ""
 echo "======================"

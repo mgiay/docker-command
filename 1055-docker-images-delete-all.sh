@@ -8,7 +8,7 @@
 #REF: https://stackoverflow.com/questions/44785585/docker-how-to-delete-all-local-docker-images
 echo "======================================================================"
 echo "LISTING ALL IMAGES: BEFORE"
-006-docker-images-listing.sh
+1051-docker-images-listing.sh
 
 echo ""
 echo "DELETE ALL IMAGES:"
@@ -23,10 +23,10 @@ sleep 1
 
 #To delete all IMAGESs including its volumes use:
 #https://www.freecodecamp.org/news/how-to-remove-images-in-docker/
-docker rm -vf $(docker ps -a -q)
+docker rmi $(docker images -q)
 
 echo "======================================================================"
 echo "LISTING ALL IMAGES: AFTER"
-006-docker-images-listing.sh
+1051-docker-images-listing.sh
 echo ""
 echo "...There is no existed IMAGES"
