@@ -5,4 +5,5 @@
 #FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
-docker run -itd --hostname="ubuntu_template" --name=ubuntu "ubuntu:latest" /bin/bash
+#docker run -itd --hostname="ubuntu_template" --name=ubuntu "ubuntu:latest" /bin/bash
+docker run -itd --hostname="ubuntu_template" --name=docker_container_ubuntu_template "ubuntu:latest" /bin/bash
