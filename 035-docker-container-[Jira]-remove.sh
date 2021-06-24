@@ -1,0 +1,22 @@
+##FILE_NAME="035-docker-container-[Jira]-remove.sh"
+#LastUpdate: #14:26 2020.04.22
+##################################################
+#FILE_NAME="035-docker-container-[Jira]-remove.sh"
+#FLD_LOC="/opt/script"
+#cat $FLD_LOC/$FILE_NAME | grep LastUpdate
+##################################################
+echo "===================================="
+echo "0/ Docker Container Running Listing:"
+'010-docker-container-[running]-listing.sh'
+
+echo "===================================="
+echo "1/ Docker Container [Jira] Stop:"
+'032-docker-container-[Jira]-stop.sh'
+
+echo "===================================="
+echo "2/ Docker Container [Jira] Remove:"
+docker rm Jira
+
+echo "===================================="
+echo "3/ Docker Container Running Listing:"
+'010-docker-container-[running]-listing.sh'
