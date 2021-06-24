@@ -1,8 +1,8 @@
-##FILE_NAME="006-02-docker-images-remove.sh"
+##FILE_NAME="1054-docker-images-remove.sh"
 #LastUpdate: #11:06 2020.04.22
 ##################################################
-#FILE_NAME="006-02-docker-images-remove.sh"
-#FLD_LOC="/opt/script"
+#FILE_NAME="1054-docker-images-remove.sh"
+#FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
 echo "======================="
@@ -16,7 +16,7 @@ echo ""
 #THE-END
 
 
-# root@srv017_syslog:~# 006-02-docker-images-remove.sh
+# root@srv017_syslog:~# 1054-docker-images-remove.sh
 # =======================
 # Docker Images REMOVE: 
 # REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE

@@ -2,7 +2,7 @@
 #LastUpdate: #14:26 2020.04.22
 ##################################################
 #FILE_NAME="035-docker-container-[Jira]-remove.sh"
-#FLD_LOC="/opt/script"
+#FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
 echo "===================================="

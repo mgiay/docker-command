@@ -1,8 +1,8 @@
-##FILE_NAME="013-docker-container-stop-all.sh"
+##FILE_NAME="1085-docker-container-stop-all.sh"
 #LastUpdate: #11:06 2020.04.22
 ##################################################
-#FILE_NAME="013-docker-container-stop-all.sh"
-#FLD_LOC="/opt/script"
+#FILE_NAME="1085-docker-container-stop-all.sh"
+#FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
 echo "============================"

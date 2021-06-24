@@ -1,8 +1,8 @@
-##FILE_NAME="011-docker-container-start.sh"
+##FILE_NAME="1083-docker-container-start.sh"
 #LastUpdate: #11:06 2020.04.22
 ##################################################
-#FILE_NAME="011-docker-container-start.sh"
-#FLD_LOC="/opt/script"
+#FILE_NAME="1083-docker-container-start.sh"
+#FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
 echo "======================"
@@ -11,8 +11,8 @@ echo "Docker Images Listing: [006-docker-images-listing.sh]"
 
 echo ""
 echo "======================"
-#echo "Docker Container Running Listing: [011-docker-container-start.sh]"
-#011-docker-container-start.sh
+#echo "Docker Container Running Listing: [1083-docker-container-start.sh]"
+#1083-docker-container-start.sh
 
 echo ""
 echo "======================"

@@ -1,10 +1,10 @@
-##FILE_NAME="010-docker-container-[running]-listing.sh"
+##FILE_NAME="1084-docker-container-stop.sh"
 #LastUpdate: #11:06 2020.04.22
 ##################################################
-#FILE_NAME="010-docker-container-[running]-listing.sh"
-#FLD_LOC="/opt/script"
+#FILE_NAME="1084-docker-container-stop.sh"
+#FLD_LOC="/opt/docker-command"
 #cat $FLD_LOC/$FILE_NAME | grep LastUpdate
 ##################################################
-010-docker-container-[running]-listing.sh
+1084-docker-container-stop.sh
 echo ""
 echo "docker stop <CONTAINER ID>"
